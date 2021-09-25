@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--Libreria-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--libreriafin -->
+    <title>Entidad Relacion</title>
+</head>
+<body>
+    <!--Inicio portada-->
+    <div class="portada">
+        <img src="img/portada.jpeg" alt="" srcset="">
+    </div>
+    
+    <div class="container">
+        <a href="index.html"><img src="img/Logo.png"></a>
+    
+                <!-- Dropdown Structure -->
+          <div >
+            <ul id="dropdown1" class="dropdown-content">
+            <li><a href="trimestre1.html">TRIMESTRE 1</a></li>
+            <li><a href="trimestre2.html">TRIMESTRE 2</a></li>
+            <li><a href="trimestre3.html">TRIMESTRE 3</a></li>
+            <li><a href="trimestre4.html">TRIMESTRE 4</a></li>
+            </ul>
+        </div>
+        <div class="container" style="width: 65%;">
+            <nav style="padding-right:70PX; background-color: black!important"  >
+                <div class="nav-wrapper">
+                <ul class="right hide-on-med-and-down">
+                    <li><a style="padding-left: 50px;" href="index.html">INICIO</a></li>
+                    <li><a style="padding-left: 50px;" href="quienessomos.html">¿QUIÉNES SOMOS?</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a style="padding-left: 50px;" class="dropdown-trigger" href="#!" data-target="dropdown1">TRIMESTRES<i class="material-icons right"></i></a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+        
+    </div>
+    <!--fin portadfa-->
+    <!--Tituloinicio-->
+         <div class="separador2" style="padding-top: 10px; padding-bottom: 50px; width: 72%;">
+        <img src="img/separador bandera.jpg"><b>DIAGRAMAS ENTIDAD RELACION </b><img src="img/separador bandera.jpg">
+      </div>
+    <!--fin titulo-->
+    <!--INICIO CARRUSEL-->
+    <div class="container">
+        <div class="carousel carousel-slider center">
+        
+            <div class="carousel-item black white-text" href="#three!">
+                <h2> DIAGRAMA ENTIDAD RELACION</h2>
+                
+                <img src="img/diagrama entidad relacion.png" class="materialboxed">
+                
+              </div>
+            <div class="carousel-item black white-text" href="#three!">
+              <h2> MODELO ENTIDAD RELACION </h2>
+              <img src="img/Modelo entidad relacion.PNG" class="materialboxed">
+              
+            </div>
+            <div class="carousel-item black white-text" href="#three!">
+                <h2>DICCIONARIO ENTIDAD RELACION</h2>
+                <p class="white-text"></p>
+                <img src="img/diccionario entidad relacion.PNG" class="materialboxed">
+                
+              </div>
+          </div>
+         
+        </div>
+    <!--fincarrusel-->
+    <!--Iniciofooter-->
+    <footer>
+        <div class="container-footer">
+          <div class="column1">
+            <h1>CONTACTO</h1>
+            <p>LAURA KAMILA RAMIREZ <br> 3108554134</p>
+          </div>
+          <div class="column2">
+            <h1>UBICANOS</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1988.4453262409947!2d-74.1277086!3d4.6135847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9eb47f7028ed%3A0xbc269c35ba204ccb!2sCra.%2063%20%2318-22%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1602297765005!5m2!1ses!2sco" 
+            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>"
+          </div>
+          <div class="column3">
+            <h1>NUESTRAS REDES</h1>
+            <div class="redes">
+              <a href="https://www.facebook.com/" class="facebook">
+                  <span class="icon-facebook2";></span>
+              </a> 
+              <a href="https://www.instagram.com/" class="instagram">
+                  <span class="icon-instagram";></span>
+              </a>
+              <a href="https://outlook.live.com/owa/" class="outlook">
+                  <span class="icon-mail2";></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!--fin footer-->
+    <!--Inicio java-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        M.AutoInit();
+        $(".dropdown-trigger").dropdown();
+    </script>
+</body>
+</html>
